@@ -7,6 +7,7 @@ import '@/assets/style/bootstrap.css'
 import '@/assets/style/main.css'
 import 'highlight.js/styles/googlecode.css'
 import '@/assets/style/github-markdown.css'
+import '@/assets/style/util.css'
 
 Vue.config.productionTip = false
 

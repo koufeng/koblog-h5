@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 const layout = () => import('@/pages/layout/index.vue')
-const homePage = () => import('@/pages/home.vue')
+const homePage = () => import('@/pages/home/home.vue')
 const portalPage = () => import('@/pages/portal.vue')
 const detailPage = () => import('@/pages/detail/detail.vue')
 

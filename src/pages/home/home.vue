@@ -4,45 +4,8 @@
       <div class="row">
         <div class="col-md-8">
           <div class="container">
-            <div class="row wow fadeInDown">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    123
-                  </div>
-                  <div class="carousel-item">
-                   234
-                  </div>
-                  <div class="carousel-item">
-                   345
-                  </div>
-                </div>
-                <a
-                  class="carousel-control-prev"
-                  href="#carouselExampleIndicators"
-                  role="button"
-                  data-slide="prev"
-                >
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a
-                  class="carousel-control-next"
-                  href="#carouselExampleIndicators"
-                  role="button"
-                  data-slide="next"
-                >
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-            </div>
-
+            <!-- <ko-head></ko-head> -->
+            <ko-banner></ko-banner>
             <div class="row mt-2 wow fadeInDown">
               <div class="col-md-12 bgc">
                 <div class="new">
@@ -135,88 +98,6 @@
                   </div>
                 </li>
               </ul>
-            </div>
-
-            <div class="row">
-              <div class="col-md-12 bgc">
-                <div class="new">
-                  <span>
-                    <i class="el-certificate"></i>推荐图文
-                  </span>
-                  <small>New Article</small>
-                </div>
-              </div>
-
-              <div class="container mt-4">
-                <div class="row">
-                  <div class="col-md-4 bgc mb-4">
-                    <div class="card mb-4 box-shadow mt-4">
-                      <div class="showimg">
-                        <img
-                          class="card-img-top"
-                          style=" width: 100%; display: block;"
-                          src="images/7.jpg"
-                          data-holder-rendered="true"
-                        />
-                      </div>
-
-                      <div class="card-body">
-                        <a href="#">测试图文</a>
-                        <div class="d-flex justify-content-between align-items-center">
-                          <div class="btn-group showtitle">
-                            <i class="el-time"></i>2019-04-03
-                          </div>
-                          <small class="text-muted">
-                            <i class="el-fire"></i>9 mins
-                          </small>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 bgc mb-4">
-                    <div class="card mb-4 box-shadow mt-4">
-                      <div class="showimg showtitle">
-                        <img
-                          class="card-img-top"
-                          style=" width: 100%; display: block;"
-                          src="images/9.jpg"
-                          data-holder-rendered="true"
-                        />
-                      </div>
-                      <div class="card-body">
-                        <a href="#">测试图文</a>
-                        <div class="d-flex justify-content-between align-items-center">
-                          <div class="btn-group showtitle">
-                            <i class="el-time"></i>2019-04-03
-                          </div>
-                          <small class="text-muted">9 mins</small>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-4 bgc mb-4">
-                    <div class="card box-shadow mt-4">
-                      <div class="showimg">
-                        <img
-                          class="card-img-top"
-                          style=" width: 100%; display: block;"
-                          src="images/9.jpg"
-                          data-holder-rendered="true"
-                        />
-                      </div>
-                      <div class="card-body">
-                        <a href="#">测试图文</a>
-                        <div class="d-flex justify-content-between align-items-center">
-                          <div class="btn-group showtitle">
-                            <i class="el-time"></i>2019-04-03
-                          </div>
-                          <small class="text-muted">9 mins</small>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -383,7 +264,14 @@
 </template>
 
 <script>
-export default {};
+import koBanner from './banner'
+// import koBanner from './banner'
+export default {
+  components: {
+    koBanner
+  }
+};
 </script>
-<style>
+<style scoped>
+
 </style>
