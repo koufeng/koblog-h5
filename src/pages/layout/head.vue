@@ -19,13 +19,13 @@
         <div class="collapse navbar-collapse justify-content-end" id="nabmune">
           <ul class="navbar-nav nav-color">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">
+              <a class="nav-link" @click="$router.push(`/`)">
                 首页
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="chat.html">系列</a>
+              <a class="nav-link" @click="$router.push(`/`)">系列</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -39,20 +39,20 @@
                 aria-expanded="false"
               >分类</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="category.html">deno</a>
-                <a class="dropdown-item" href="category.html">css</a>
+                <a class="dropdown-item" @click="$router.push(`/`)">deno</a>
+                <a class="dropdown-item" @click="$router.push(`/`)">css</a>
                 <!-- <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="category.html">jq</a> -->
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="life.html">传送门</a>
+              <a class="nav-link" @click="$router.push(`/`)">传送门</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="chat.html">杂货铺</a>
+              <a class="nav-link" @click="$router.push(`/`)">杂货铺</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">养生</a>
+              <a class="nav-link" @click="$router.push(`/`)">养生</a>
             </li>
           </ul>
         </div>

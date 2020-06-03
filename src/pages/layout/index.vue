@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="ko-bg">
     <ko-head></ko-head>
     <div class="ko-con">
       <router-view />
@@ -19,5 +19,9 @@ export default {
 }
 
 </script>
-<style>
+<style scoped>
+  .ko-bg {
+    background: url("../../assets/img/particle-left.png") no-repeat;
+    background-position: left top;
+  }
 </style>
