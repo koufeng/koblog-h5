@@ -46,9 +46,6 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="picture.html">相册</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="life.html">传送门</a>
             </li>
             <li class="nav-item">

@@ -656,6 +656,7 @@ a{
 .article-body{
     padding: 20px;
     min-height: 400px;
+    width: 100%;
 }
 
 

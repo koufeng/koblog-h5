@@ -4,6 +4,7 @@ import Router from 'vue-router'
 const layout = () => import('@/pages/layout/index.vue')
 const homePage = () => import('@/pages/home.vue')
 const portalPage = () => import('@/pages/portal.vue')
+const detailPage = () => import('@/pages/detail/detail.vue')
 
 Vue.use(Router)
 
@@ -23,6 +24,11 @@ const router = new Router({
           path: '/home',
           name: 'homePage',
           component: homePage
+        },
+        {
+          path: '/detail',
+          name: 'detailPage',
+          component: detailPage
         },
         {
           path: '/portal',

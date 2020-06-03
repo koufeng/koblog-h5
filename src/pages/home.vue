@@ -13,13 +13,13 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="images/1.png" class="d-block w-100" alt="..." />
+                    123
                   </div>
                   <div class="carousel-item">
-                    <img src="images/2.png" class="d-block w-100" alt="..." />
+                   234
                   </div>
                   <div class="carousel-item">
-                    <img src="images/3.png" class="d-block w-100" alt="..." />
+                   345
                   </div>
                 </div>
                 <a
@@ -58,7 +58,7 @@
 
             <div class="row mt-2">
               <ul class="list-unstyled art-list">
-                <li class="media">
+                <li class="media" @click="$router.push(`/detail`)">
                   <div class="art-img">
                     <img class="mr-3" src="images/8.jpg" alt="Generic placeholder image" />
                   </div>
@@ -220,7 +220,6 @@
             </div>
           </div>
         </div>
-
         <!--右边-->
         <div class="col-md-4">
           <div class="container">
