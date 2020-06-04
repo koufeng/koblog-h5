@@ -1,4 +1,4 @@
-const text = `<h1 id="deno-入门手册：附-typescript-代码实例">Deno 入门手册：附 TypeScript 代码实例</h1>
+const ar01 = `<h1 id="deno-入门手册：附-typescript-代码实例">Deno 入门手册：附 TypeScript 代码实例</h1>
 <p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gert1lb5f4j31be0p4my8.jpg" alt="Deno"></p>
 <h2 id="目录">目录</h2>
 <ul>
@@ -775,4 +775,4 @@ await app.listen(\`\${HOST}:\${PORT}\`);</code></pre>
 <h2 id="原文地址">原文地址</h2>
 <p><a href="https://www.freecodecamp.org/news/the-deno-handbook/#your-first-deno-app">https://www.freecodecamp.org/news/the-deno-handbook/#your-first-deno-app</a></p>`
 
-export {text}
+export {ar01}

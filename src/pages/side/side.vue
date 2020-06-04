@@ -38,39 +38,36 @@
       <div class="col-md-12">
         <ul class="label">
           <li>
-            <a href="#" title="生活">生活&nbsp;&nbsp;(1)</a>
+            <a href="#" title="html">html&nbsp;&nbsp;(0)</a>
           </li>
 
           <li>
-            <a href="#" title="模糊查询">模糊查询&nbsp;&nbsp;(1)</a>
+            <a href="#" title="现代css">现代css&nbsp;&nbsp;(1)</a>
           </li>
 
           <li>
-            <a href="#" title="遍历二维数组">遍历二维数组&nbsp;&nbsp;(1)</a>
+            <a href="#" title="deno">deno&nbsp;&nbsp;(1)</a>
           </li>
 
           <li>
-            <a href="#" title="Mui">Mui&nbsp;&nbsp;(2)</a>
+            <a href="#" title="js">js&nbsp;&nbsp;(2)</a>
           </li>
 
           <li>
-            <a href="#" title="随机">随机&nbsp;&nbsp;(1)</a>
+            <a href="#" title="node">node&nbsp;&nbsp;(1)</a>
+          </li>
+
+
+          <li>
+            <a href="#" title="vue">vue&nbsp;&nbsp;(1)</a>
           </li>
 
           <li>
-            <a href="#" title="文章月统计">文章月统计&nbsp;&nbsp;(1)</a>
+            <a href="#" title="webpack">webpack&nbsp;&nbsp;(1)</a>
           </li>
 
           <li>
-            <a href="#" title="时间戳">时间戳&nbsp;&nbsp;(1)</a>
-          </li>
-
-          <li>
-            <a href="#" title="一周每天的数据">一周每天的数据&nbsp;&nbsp;(1)</a>
-          </li>
-
-          <li>
-            <a href="#" title="无限极分类">无限极分类&nbsp;&nbsp;(1)</a>
+            <a href="#" title="react">react&nbsp;&nbsp;(1)</a>
           </li>
 
           <li>
@@ -86,15 +83,7 @@
           </li>
 
           <li>
-            <a href="#" title="Thinkphp5">Thinkphp5&nbsp;&nbsp;(1)</a>
-          </li>
-
-          <li>
             <a href="#" title="QQ互联">QQ互联&nbsp;&nbsp;(1)</a>
-          </li>
-
-          <li>
-            <a href="#" title="惜缘">惜缘&nbsp;&nbsp;(1)</a>
           </li>
 
           <li>

@@ -32,14 +32,14 @@
 
 <script>
 import koSide from '@/pages/side/side.vue'
-import { text } from '@/mock/01.js'
+import { ar01 } from '@/mock/01.js'
 export default {
   components: {
     koSide
   },
   computed: {
     mdText () {
-      return text
+      return ar01
     }
   },
 };
