@@ -14,7 +14,7 @@
             </div>
             <div class="row mt-2 bgc">
               <div class="article-body">
-                <div class="markdown-body" v-html="mdText" v-highlight></div>
+                <div class="markdown-body" v-html="curArt" v-highlight></div>
               </div>
             </div>
           </div>
@@ -32,16 +32,39 @@
 
 <script>
 import koSide from '@/pages/side/side.vue'
-import { ar01 } from '@/mock/01.js'
+import { articleData } from '@/mock/articleData.js'
 export default {
+  data() {
+    return {
+      curArt: '',
+      curID: ''
+    }
+  },
   components: {
     koSide
   },
   computed: {
-    mdText () {
-      return ar01
-    }
+    // listData () {
+    //   return articleData
+    // }
   },
+  created () {
+    this.getCurArt()
+  },
+  methods: {
+    getCurArt () {
+      let params = this.$route.query
+      if (params) {
+        this.curID = params.id
+        for (let i = 0; i < articleData.length; i++) {
+          if (articleData[i]['id'] === this.curID) {
+            this.curArt = articleData[i]['article']
+            break;
+          }
+        }
+      }
+    }
+  }
 };
 </script>
 <style>
